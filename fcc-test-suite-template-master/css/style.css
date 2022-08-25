@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    background-color: #edf2f4;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7rem;
+  }
+  
+  #header-img {
+    width: 30rem;
+    height: 5rem;
+  }
+  
+  #header-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #nav-bar {
+    display: flex;
+    margin-right: 1rem;
+    gap: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #nav-bar .nav-link a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+  }
+  
+  #hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  .hero-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  #form {
+    width: 30rem;
+    height: 3rem;
+  }
+  
+  #email {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .submit a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "poppons", sans-serif;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    background-color: blanchedalmond;
+  }
+  
+  .service-quality {
+    display: flex;
+    /* position: absolute; */
+    margin: 5rem;
+    margin-left: 25%;
+    max-width: 80rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+  
+  .qualities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .icon-box {
+    padding: 1rem;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 4rem;
+  }
